@@ -1,11 +1,12 @@
 {
   "name": "visstick",
-  "owner": { "name": "Visstick AI" },
+  "owner": { "name": "Visstick AI", "url": "https://visstick.ai" },
+  "metadata": { "description": "Claude-plugins van Visstick AI" },
   "plugins": [
     {
       "name": "leadinfo-opvolging",
-      "source": "./",
-      "description": "Opvolgmails voor Leadinfo Autopilot als concept in je mailbox."
+      "source": "./plugins/leadinfo-opvolging",
+      "description": "Opvolgmails voor Leadinfo Autopilot als concept in Gmail of Outlook. Verstuurt nooit zelf."
     }
   ]
 }
