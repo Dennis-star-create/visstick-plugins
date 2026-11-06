@@ -1,0 +1,6 @@
+{
+  "name": "leadinfo-opvolging",
+  "version": "0.1.0",
+  "description": "Zet voor contacten van Leadinfo Autopilot een persoonlijke opvolgmail klaar als concept in Gmail of Outlook, met de bezochte pagina's als referentie. Verstuurt nooit zelf.",
+  "author": { "name": "Visstick AI", "url": "https://visstick.ai" }
+}
