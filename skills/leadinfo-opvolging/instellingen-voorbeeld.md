@@ -22,6 +22,14 @@ Bedrijfsnaam
 voorbeeld.nl
 ```
 
+## Voorbeeldmail (voor de toon)
+Plak hier één mail die je zelf aan een prospect stuurde. De skill leest geen
+andere verzonden mails.
+```
+Hoi …,
+…
+```
+
 ## Afspraak
 - afspraaklink (optioneel): https://…   # bijv. Calendly, Microsoft Bookings, Google-agenda
 - gespreksduur: 15 minuten

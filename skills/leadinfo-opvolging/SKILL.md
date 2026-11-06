@@ -140,7 +140,13 @@ adressen die in de mailbox of de contacten staan.
 
 ## 5. Uitsluiten
 
-Sla over (status `overgeslagen`, met reden) als het bedrijf:
+**Belofte in de Autopilot-mail.** Staat er in de Autopilot-mail iets als "niets
+doen mag ook, dan ontvang je verder geen mail van mij"? Dan volg je niet op:
+status `overgeslagen`, met "Autopilot-mail belooft geen verdere mail". Meld het
+één keer per run aan de gebruiker. Opvolgen kan pas als de tekst in Autopilot
+is aangepast.
+
+Sla ook over (status `overgeslagen`, met reden) als het bedrijf:
 - op de `uitsluitlijst` in de instellingen staat (klanten, partners,
   concurrenten);
 - zelf het bedrijf van de gebruiker is, of Leadinfo;
@@ -149,16 +155,19 @@ Sla over (status `overgeslagen`, met reden) als het bedrijf:
 
 ## 6. De opvolgmail schrijven
 
-Lees één keer per run 3 à 4 recente mails die de gebruiker zelf aan externe
-adressen stuurde. Neem daaruit de toon over: aanhef, je of u, lengte en
-afsluiting. Lees ook de Autopilot-mail zelf. Je opvolging bouwt daarop voort
-en herhaalt hem niet.
+**Toon.** Gebruik de `voorbeeldmail` uit de instellingen. Lees geen
+willekeurige verzonden mails: daar staan vaak vertrouwelijke gesprekken met
+klanten in. Ontbreekt de voorbeeldmail, gebruik dan alleen eerdere
+Autopilot-mails en de standaardregels hieronder.
+
+Lees ook de Autopilot-mail zelf. Je opvolging bouwt daarop voort en herhaalt
+hem niet.
 
 Gebruik als referentie:
 - wat het bedrijf doet (branche, omschrijving uit de rapportage, eventueel hun
   website);
-- de bezochte pagina's: die bepalen het onderwerp. Kijk in de instellingen bij
-  `aanbod` welke dienst bij welke pagina hoort. Langer bekeken pagina's wegen
+- de bezochte pagina's: die bepalen het onderwerp. Inlogpagina's, privacy en
+  voorwaarden tellen niet mee. Kijk in de instellingen bij `aanbod` welke dienst bij welke pagina hoort. Langer bekeken pagina's wegen
   zwaarder. `/prijzen` of `/contact` zijn een sterk signaal: wees dan concreet;
 - bij `eerder contact`: verwijs daarnaar ("We spraken elkaar in maart over …").
 
