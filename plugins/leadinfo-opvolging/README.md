@@ -2,8 +2,10 @@
 
 Een skill voor Claude die mails van Leadinfo Autopilot opvolgt:
 
-1. Leest twee keer per week je verzonden mails en vindt de mails die Autopilot
-   uit jouw naam verstuurde. Legt bedrijf, contactpersoon en e-mailadres vast.
+Elke keer dat je de skill start, doet hij dit:
+
+1. Zoekt in je verzonden mails de mails die Autopilot uit jouw naam verstuurde.
+   Legt bedrijf, contactpersoon en e-mailadres vast.
 2. Kijkt of je al iemand bij dat bedrijf kent uit eerder mailcontact. Zo ja,
    dan gaat de opvolging naar die persoon.
 3. Leest de bezoekersrapportage van Leadinfo uit je mailbox (bedrijven en
@@ -44,6 +46,9 @@ Het voorbeeld staat in `plugins/leadinfo-opvolging/skills/leadinfo-opvolging/ins
 Controleer de eerste concepten goed voordat je de planning aanzet.
 
 ## Twee keer per week automatisch
+
+Na de installatie loopt er nog niets vanzelf: de skill doet alleen iets als
+hij gestart wordt. Automatisch laten lopen stel je zelf in, zoals hieronder.
 
 Plan de run op een dag nadat de Leadinfo-rapportage binnenkomt, bijvoorbeeld
 dinsdag en vrijdag om 09:00. De computer moet dan aan staan.
