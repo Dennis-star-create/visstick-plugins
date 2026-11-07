@@ -1,0 +1,6 @@
+{
+  "name": "offerte-pitchdeck",
+  "version": "0.1.0",
+  "description": "Maakt van een klantgesprek in één keer een offerte (Word) en een pitchdeck van 8 slides (PowerPoint) in je eigen huisstijl, met prijzen uit je eigen prijslijst. Verstuurt nooit zelf.",
+  "author": { "name": "Visstick AI", "url": "https://visstick.ai" }
+}

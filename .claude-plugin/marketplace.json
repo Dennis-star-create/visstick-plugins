@@ -17,6 +17,11 @@
       "name": "inbox-concepten",
       "source": "./plugins/inbox-concepten",
       "description": "Leest je nieuwe mail, sorteert hem en zet conceptantwoorden in jouw toon klaar in Gmail of Outlook. Verstuurt nooit zelf."
+    },
+    {
+      "name": "offerte-pitchdeck",
+      "source": "./plugins/offerte-pitchdeck",
+      "description": "Maakt van een klantgesprek een offerte (Word) en een pitchdeck (PowerPoint) in je eigen huisstijl, met prijzen uit je eigen prijslijst. Verstuurt nooit zelf."
     }
   ]
 }
