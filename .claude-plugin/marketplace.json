@@ -1,12 +1,22 @@
 {
   "name": "visstick",
-  "owner": { "name": "Visstick AI", "url": "https://visstick.ai" },
-  "metadata": { "description": "Claude-plugins van Visstick AI" },
+  "owner": {
+    "name": "Visstick AI",
+    "url": "https://visstick.ai"
+  },
+  "metadata": {
+    "description": "Claude-plugins van Visstick AI"
+  },
   "plugins": [
     {
       "name": "leadinfo-opvolging",
       "source": "./plugins/leadinfo-opvolging",
       "description": "Opvolgmails voor Leadinfo Autopilot als concept in Gmail of Outlook. Verstuurt nooit zelf."
+    },
+    {
+      "name": "inbox-concepten",
+      "source": "./plugins/inbox-concepten",
+      "description": "Leest je nieuwe mail, sorteert hem en zet conceptantwoorden in jouw toon klaar in Gmail of Outlook. Verstuurt nooit zelf."
     }
   ]
 }

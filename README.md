@@ -16,3 +16,4 @@ Updates ophalen: `/plugin marketplace update visstick`.
 | Plugin | Wat het doet |
 |---|---|
 | [leadinfo-opvolging](plugins/leadinfo-opvolging/README.md) | Zet voor contacten van Leadinfo Autopilot een persoonlijke opvolgmail klaar als concept in Gmail of Outlook, met als doel een afspraak. Verstuurt nooit zelf. |
+| [inbox-concepten](plugins/inbox-concepten/README.md) | Leest je nieuwe mail, sorteert hem op wat aandacht nodig heeft en zet conceptantwoorden in jouw toon klaar in Gmail of Outlook. Verstuurt nooit zelf. |

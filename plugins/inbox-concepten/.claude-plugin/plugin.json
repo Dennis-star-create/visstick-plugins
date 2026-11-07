@@ -1,0 +1,6 @@
+{
+  "name": "inbox-concepten",
+  "version": "0.1.0",
+  "description": "Leest je nieuwe mail, sorteert op wat aandacht nodig heeft en zet conceptantwoorden in jouw toon klaar in Gmail of Outlook. Verstuurt nooit zelf.",
+  "author": { "name": "Visstick AI", "url": "https://visstick.ai" }
+}
