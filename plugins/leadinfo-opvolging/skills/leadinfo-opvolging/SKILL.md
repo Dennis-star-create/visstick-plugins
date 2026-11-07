@@ -1,6 +1,6 @@
 ---
 name: leadinfo-opvolging
-description: Volgt mails van Leadinfo Autopilot op met een persoonlijke mail die een afspraak voorstelt. Zoekt in de gekoppelde mailbox (Gmail of Outlook) de mails die Autopilot uit naam van de gebruiker verstuurde. Legt bedrijf, contactpersoon en e-mailadres vast. Kijkt of er al een bekend contact bij dat bedrijf is. Koppelt de bezoekersrapportage van Leadinfo (bedrijf en bezochte pagina's) en zet per bedrijf een opvolgmail klaar als concept. Verstuurt nooit zelf. Gebruik bij "leadinfo opvolging", "volg de autopilot-mails op", "zet de leadinfo-opvolgmails klaar", of als geplande taak (twee keer per week).
+description: Volgt mails van Leadinfo Autopilot op met een persoonlijke mail die een afspraak voorstelt. Zoekt in de gekoppelde mailbox (Gmail of Outlook) de mails die Autopilot uit naam van de gebruiker verstuurde. Legt bedrijf, contactpersoon en e-mailadres vast. Kijkt of er al een bekend contact bij dat bedrijf is. Koppelt de bezoekersrapportage van Leadinfo (bedrijf en bezochte pagina's) en zet per bedrijf een opvolgmail klaar als concept. Verstuurt nooit zelf. Gebruik bij "leadinfo opvolging", "volg de autopilot-mails op", "zet de leadinfo-opvolgmails klaar", of als geplande taak (die planning stelt de gebruiker zelf in, zie de README).
 ---
 
 # Leadinfo-opvolging
