@@ -38,6 +38,11 @@ except ImportError:
 INVUL = "[INVULLEN: {}]"
 
 
+
+def KOP(o, u_vorm, je_vorm):
+    """Kop in de aanspreekvorm uit de offerte ("u" of "je"; standaard u)."""
+    return je_vorm if str(o.get("aanspreekvorm", "u")).strip().lower() == "je" else u_vorm
+
 def hexkleur(waarde, standaard):
     w = (waarde or standaard).lstrip("#")
     if not re.fullmatch(r"[0-9a-fA-F]{6}", w):
@@ -119,7 +124,7 @@ def maak_offerte(d, rijen, subtotaal, btw, totaal, open_prijs, pad):
     links, rechts = kop.rows[0].cells
     logo = stijl.get("logo")
     if logo and os.path.isfile(os.path.expanduser(logo)):
-        links.paragraphs[0].add_run().add_picture(os.path.expanduser(logo), width=Cm(4.5))
+        links.paragraphs[0].add_run().add_picture(os.path.expanduser(logo), width=Cm(3))
     else:
         r = links.paragraphs[0].add_run(tekst(b.get("naam"), "bedrijfsnaam"))
         r.bold, r.font.size, r.font.color.rgb = True, Pt(16), DocxRGB(*prim)
@@ -151,8 +156,8 @@ def maak_offerte(d, rijen, subtotaal, btw, totaal, open_prijs, pad):
         for it in items or []:
             doc.add_paragraph(it, style="List Bullet")
 
-    blok("Uw situatie", o.get("situatie"), "situatie uit het gesprek")
-    blok("Wat u wilt bereiken", o.get("doelen"), "doelen van de klant")
+    blok(KOP(o, "Uw situatie", "Jouw situatie"), o.get("situatie"), "situatie uit het gesprek")
+    blok(KOP(o, "Wat u wilt bereiken", "Wat je wilt bereiken"), o.get("doelen"), "doelen van de klant")
 
     doc.add_heading("Onze aanpak", level=2)
     fases = o.get("aanpak") or []
@@ -297,8 +302,8 @@ def maak_deck(d, rijen, subtotaal, btw, totaal, open_prijs, pad):
         s.shapes.add_picture(logo, W - Inches(2.6), Inches(0.6), height=Inches(0.9))
 
     # 2-3 Situatie en doelen
-    punten("Waar u nu staat", o.get("situatie"), "situatie", 2)
-    punten("Wat u wilt bereiken", o.get("doelen"), "doelen", 3)
+    punten(KOP(o, "Waar u nu staat", "Waar je nu staat"), o.get("situatie"), "situatie", 2)
+    punten(KOP(o, "Wat u wilt bereiken", "Wat je wilt bereiken"), o.get("doelen"), "doelen", 3)
 
     # 4 Aanpak als fases naast elkaar
     s = inhoud("Onze aanpak", 4)

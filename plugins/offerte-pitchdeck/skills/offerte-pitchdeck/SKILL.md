@@ -90,7 +90,7 @@ Regels:
      "bedrijf": {"naam": "", "adres": "", "postcode_plaats": "", "email": "", "telefoon": "", "website": "", "kvk": "", "btw": "", "iban": "", "contactpersoon": ""},
      "klant": {"bedrijf": "", "contact": "", "adres": "", "postcode_plaats": ""},
      "offerte": {
-       "nummer": "", "datum": "", "geldig_tot": "", "onderwerp": "",
+       "nummer": "", "datum": "", "geldig_tot": "", "onderwerp": "", "aanspreekvorm": "u",
        "aanhef_naam": "", "inleiding": "",
        "situatie": [], "doelen": [],
        "aanpak": [{"fase": "", "omschrijving": "", "duur": ""}],
@@ -102,6 +102,7 @@ Regels:
      "afsluiting": "Met vriendelijke groet,\n\nNaam\nBedrijf"
    }
    ```
+   - `aanspreekvorm`: `u` of `je`, uit de instellingen of zoals de klant in het gesprek sprak. De koppen volgen dit.
    - `onderwerp`: de belofte aan de klant in maximaal 8 woorden, niet "Offerte".
    - `inleiding`: 2 tot 3 zinnen, verwijst naar het gesprek.
    - Slides tonen hooguit 5 punten en 4 fases. Houd elk punt onder de 90 tekens.
